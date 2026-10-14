@@ -1,15 +1,19 @@
-# Sanctuary V1.5 — Narrative Edition
+# Sanctuary V1.8 — Story & Atmosphere Edition
 
-Open `index.html` in a modern browser. Files are static, so hosting on GitHub Pages is optional.
+Static GitHub Pages-compatible web application; upload all files and folders, keeping `art/` intact. No dependencies, build system or backend.
 
-## Narrative
-90 sequential events across three habitats, with scene-setting continuity notes in `narrative.js`. All 270 outcomes are individually written in `choices.js` with character-specific reactions; stories and prompts are in `stories.js`. Three choices per event are offered, and the selected response is recorded in the Memory Book. The following event acknowledges the prior shared moment. **This remains a linear story with personalised scenes, not a fully branching engine.**
+## Changes
+- Full editorial review and augmentation of the **90 story scenes**, each with a new contextual detail and deeper, grounded takeaway.
+- **270 distinct caregiving outcomes** refined with event-specific, choice-specific consequences. Three responses for each event remain separate.
+- Added a milestone journey track, choice response reveal, restrained ambient scene lighting and motion, and more responsive visual controls.
+- Existing illustrations, Cottage journal, object artwork, inventory, 18 unlocks and pacing preserved.
+- Reduced-motion setting is respected. Animations are decorative, never prerequisites to access content.
+- Save key remains `little-sanctuary-v1`; save format updated to 6. Old V1.7 saves should be accepted. Back up via Settings before upgrading.
 
-## What carries forward
-The Cottage is the player's home base, not the physical location of active plants. Milestones 1/8/15/22/29 unlock keepsakes, and event 30 unlocks a placeable plant representation. Progress and decisions save to localStorage. The key `little-sanctuary-v1` remains unchanged, so saved progress migrates automatically. Import/export is available in Settings. Existing completed events do not retroactively change their recorded text, and pre-V1.5 choices are preserved if present.
+## Narrative scope and known limitations
+Choices change the immediate outcome and recorded memory, while the 30-event plot remains linear. This release does not add persistent branching plot logic. Some original sentences were retained as the foundation of the expanded dialogue and may need further audience testing.
 
-## Fixes
-A completion-order bug in V1.4 discarded the selected choice. V1.5 records the choice before clearing the draft. The new writing avoids generic moral sentences in the choice outcomes, and the scene introductions add context without lengthy exposition.
+User reflections reside only in browser localStorage; there is no account or cloud sync. Never test with sensitive real reflections on a shared device.
 
-## Limits
-Story branches don't alter the fixed order of events; callbacks currently reference the prior event rather than persistent branching consequences. These are editorially refreshed stories, not clinical guidance. Art still uses simple symbols and CSS. Browser interaction testing should be completed before public testing.
+## Acceptance checks
+Run JS syntax and content checks, test saved-progress migration, milestone rewards, journal access, choice locking, mobile interaction and reduced-motion support. The automated content validation does not replace a facilitated review with teen/young-adult readers.
