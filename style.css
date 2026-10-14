@@ -91,3 +91,10 @@ body{background:radial-gradient(ellipse at 10% 10%,#f1e9d5 0,transparent 48%),ra
 @keyframes response-enter{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media(max-width:780px){.topbar{padding:9px 12px}.game-scene{border-radius:16px}.journey-track{width:100%}.room-object:hover{transform:none}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
+
+/* V1.9: restrained literary notes and story-illustration framing */
+.literary-note{margin-top:15px;padding:13px 15px;border-left:3px solid #9f987b;background:#faf8ef;border-radius:0 12px 12px 0;display:flex;flex-direction:column;gap:5px}
+.literary-note .literary-quote{font-family:Georgia,serif;font-size:16px;color:#5e5847;font-style:italic}
+.literary-note small{color:#786f60;font-size:12px}
+.event-illustration{object-fit:contain;background:#ddd8c9}
+.story-art{box-shadow:inset 0 0 0 1px #c7bb9e,0 12px 28px #514f4224}
