@@ -195,3 +195,26 @@ body{background:radial-gradient(ellipse at 10% 10%,#f1e9d5 0,transparent 48%),ra
   .story-content .choice-reveal .story-insight:after{right:14px!important;top:15px!important}
   .story-content .choice-reveal .story-insight .eyebrow{margin-right:29px}
 }
+
+/* Sanctuary editorial refinement — consistent spacing and typography */
+.story-insight:after,.story-content .choice-reveal .story-insight:after{content:none!important;display:none!important}
+.story-content .choice-reveal .story-insight .eyebrow{margin-right:0!important}
+.story-echo{margin:4px 0 22px!important;line-height:1.7;max-width:100%;box-sizing:border-box}
+.story-layout{align-items:start}
+.story-content>div[style*="margin-top"]{margin-top:24px!important}
+.story-content>div[style*="margin-top"]>p{margin:14px 0 0}
+.plant-card{gap:12px}
+.plant-card .plant-invite{font-size:14px;line-height:1.6;margin:0}
+.section-head{margin-top:32px;margin-bottom:20px}
+.footer{margin-top:54px;padding-top:22px;border-top:1px solid #e4dccc;line-height:1.8}
+.footer .chip{display:inline-flex;margin-top:18px;align-items:center;justify-content:center;min-height:42px}
+.story-content .prompt{margin-top:26px}
+.story-content .prompt .actions{margin-top:18px}
+.status{display:none!important}
+@media(max-width:780px){
+ .footer{margin-top:42px;padding-top:22px}
+ .footer .chip{margin-top:18px}
+ .story-echo{margin:8px 0 18px!important}
+ .section-head{margin-top:24px;margin-bottom:18px}
+ .story-content .choice-reveal .story-insight{padding:20px!important}
+}
