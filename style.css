@@ -125,3 +125,73 @@ body{background:radial-gradient(ellipse at 10% 10%,#f1e9d5 0,transparent 48%),ra
 .prompt b{font-family:Georgia,serif;font-size:18px;color:#49634d}
 .landing-intro{background:#faf6ec!important}
 @media(max-width:700px){.story-echo{padding:16px!important}.world-note{padding:16px 19px!important}.story-insight{padding:18px!important}}
+
+/* Sanctuary V2.1.1 — post-choice layout correction
+   Keep the response unboxed and give the thought panel its own safe inset. */
+.story-content .choice-reveal{
+  display:block;
+  border:0!important;
+  outline:0;
+  box-shadow:none!important;
+  background:transparent!important;
+  border-radius:0!important;
+  padding:18px 0 0!important;
+  margin:20px 0 24px!important;
+  overflow:visible;
+}
+.story-content .choice-reveal > b{
+  display:block;
+  margin:0 0 14px!important;
+  padding:0 0 12px!important;
+  border-bottom:1px solid #ddd7c7;
+  font-family:Georgia,serif;
+  font-size:19px;
+  line-height:1.45;
+}
+.story-content .choice-reveal > p{
+  margin:0 0 22px!important;
+  padding:0;
+  line-height:1.75;
+  overflow-wrap:anywhere;
+}
+.story-content .choice-reveal .story-insight{
+  box-sizing:border-box;
+  display:block;
+  position:relative;
+  overflow:visible;
+  width:100%;
+  min-width:0;
+  margin:22px 0 0!important;
+  padding:25px 27px 23px!important;
+  border:1px solid #e2d9c5!important;
+  border-radius:12px 20px 20px 12px!important;
+  box-shadow:none!important;
+}
+.story-content .choice-reveal .story-insight:before{
+  content:none!important;
+  display:none!important;
+}
+.story-content .choice-reveal .story-insight:after{
+  top:17px!important;
+  right:20px!important;
+}
+.story-content .choice-reveal .story-insight .eyebrow{
+  display:block;
+  margin:0 32px 13px 0;
+  line-height:1.6;
+  font-size:11px;
+  overflow-wrap:anywhere;
+}
+.story-content .choice-reveal .story-insight > p{
+  margin:0!important;
+  padding:0;
+  line-height:1.75;
+  overflow-wrap:anywhere;
+}
+.story-content .prompt{margin-top:26px;}
+@media(max-width:700px){
+  .story-content .choice-reveal{padding-top:12px!important;margin:16px 0 20px!important}
+  .story-content .choice-reveal .story-insight{padding:21px 19px 20px!important;margin-top:20px!important}
+  .story-content .choice-reveal .story-insight:after{right:14px!important;top:15px!important}
+  .story-content .choice-reveal .story-insight .eyebrow{margin-right:29px}
+}
