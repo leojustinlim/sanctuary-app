@@ -1,4 +1,4 @@
-// Sanctuary V1.8 — complete 90-event editorial revision. Stable plant IDs and event order retained.
+// Sanctuary V2.0 — narrative mood balance with meaningful thoughts to carry; all 90 event IDs stable.
 window.PLANTS = [
   {
     "id": "cactus",
@@ -86,9 +86,9 @@ window.PLANTS = [
       ],
       [
         "The First Rain",
-        "Cool drops finally reach Milo. He does not celebrate loudly; he simply listens. Rain gathers briefly on the familiar stone.",
-        "Relief doesn't erase the dry days, but it deserves to be received when it arrives.",
-        "What small thing has brought you relief recently?"
+        "At last, rain taps the clay rim of Milo's pot. He makes a dry remark about the clouds being late, then falls quiet to enjoy the sound. Drops gather on the familiar stone, and for a little while he has no need to prepare for the next dry spell.",
+        "A welcome moment need not erase what came before. It can simply be good, and we can let it be good while it lasts.",
+        "When did you last let yourself enjoy something without worrying about what came next?"
       ],
       [
         "A Different Kind of Strength",
@@ -244,9 +244,9 @@ window.PLANTS = [
       ],
       [
         "A Melody of Her Own",
-        "Sunny finds herself humming with the wind. The melody is unfinished, and for once she feels no urgency to improve it. The tune has no ending, and no one else is listening.",
-        "Joy doesn't need a finished product or someone else's approval.",
-        "What would you make just for fun?"
+        "Sunny hums a tune as the breeze stirs the meadow. It is a little uneven, and she laughs when a bee buzzes along at entirely the wrong note. She sings it again anyway, louder this time.",
+        "Joy does not need an audience, a polished result, or permission to deserve a place in the day.",
+        "What brings you joy when you stop trying to do it perfectly?"
       ],
       [
         "Being Seen",
@@ -486,9 +486,9 @@ window.PLANTS = [
       ],
       [
         "Clear Skies",
-        "The fog lifts and the valley glows. Pip enjoys the view without scolding themself for yesterday’s worry. Sunlight returns to the valley, revealing the stream below.",
-        "Feeling relief doesn't make the earlier fear foolish.",
-        "What relief have you experienced?"
+        "The fog opens above Pip's ledge, revealing the valley in a wash of soft blue. Pip watches a passing cloud throw an enormous, comically shaped shadow across the rocks and smiles at the sight. Nothing needs solving in this moment.",
+        "We can appreciate a clear moment without demanding that it last. Its briefness does not make it less real.",
+        "What is a small, uncomplicated pleasure you would like to notice more often?"
       ],
       [
         "What the Moss Knows",
