@@ -98,3 +98,9 @@ body{background:radial-gradient(ellipse at 10% 10%,#f1e9d5 0,transparent 48%),ra
 .literary-note small{color:#786f60;font-size:12px}
 .event-illustration{object-fit:contain;background:#ddd8c9}
 .story-art{box-shadow:inset 0 0 0 1px #c7bb9e,0 12px 28px #514f4224}
+
+/* Sanctuary V2.0: keepsake details, touch-friendly placement and plant introductions */
+.plant-invite{font-weight:650;color:#486d55!important;min-height:0!important}
+.keepsake-detail-image{display:block;width:112px;height:112px;object-fit:contain;margin:12px auto}
+.arrange-controls{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin:12px 0}.arrange-controls button{min-width:52px;min-height:48px;font-size:19px}
+@media(max-width:600px){.modal{max-height:90dvh;overflow-y:auto}.arrange-controls button{min-width:58px}.room-object{touch-action:none}}
