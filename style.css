@@ -218,3 +218,44 @@ body{background:radial-gradient(ellipse at 10% 10%,#f1e9d5 0,transparent 48%),ra
  .section-head{margin-top:24px;margin-bottom:18px}
  .story-content .choice-reveal .story-insight{padding:20px!important}
 }
+
+
+/* Sanctuary visual consistency pass — spacing, type hierarchy, and cottage */
+:root{
+  --sanctuary-ink:#374d3f;
+  --sanctuary-muted:#657669;
+  --sanctuary-line:#ded8c9;
+  --sanctuary-accent:#3b674d;
+}
+body{color:var(--sanctuary-ink)}
+.section-head{margin:40px 0 24px;align-items:flex-end}
+.section-head>div{min-width:0}
+.section-head .eyebrow{display:block;margin:0 0 13px;line-height:1.5}
+.section-head h2{font-family:Fraunces,Georgia,serif;font-size:clamp(26px,2.7vw,32px);line-height:1.22;letter-spacing:-.015em}
+.section-head p{margin:13px 0 0;line-height:1.7;max-width:780px;color:var(--sanctuary-muted)}
+.section-head + .plant-grid,.section-head + .story-layout{margin-top:0}
+.card h3,.collection-head h3,.side-panel h3,.memory h4,.modal h2{color:var(--sanctuary-ink);line-height:1.3}
+.collection-head h3{font-family:Fraunces,Georgia,serif;font-size:24px;margin:10px 0 12px}
+.collection-head .eyebrow{display:block;line-height:1.5}
+.collection-head p{margin:0 0 20px;line-height:1.7}
+.card,.memory,.modal{color:var(--sanctuary-ink)}
+.muted,.subtle{color:var(--sanctuary-muted)}
+.btn{background:var(--sanctuary-accent)}
+.btn.secondary{background:#e7eee4;color:#345941}
+.btn.ghost{background:#fff8eb;color:#455d49}
+.collection-panel{margin-top:28px}
+.room-controls{margin-top:20px;gap:16px}
+.room-controls .subtle{line-height:1.6}
+.cottage-v17 .detailed-object .object-caption{display:none}
+.cottage-v17 .detailed-object{touch-action:none}
+.inventory-object:focus-visible,.room-object:focus-visible{outline:3px solid #b98d53;outline-offset:3px}
+.footer{margin-top:60px}
+@media(max-width:780px){
+  .section-head{margin:32px 0 22px;align-items:flex-start}
+  .section-head .eyebrow{margin-bottom:12px}
+  .section-head h2{font-size:clamp(25px,6vw,30px)}
+  .section-head p{margin-top:12px}
+  .collection-panel{margin-top:24px}
+  .room-controls{align-items:flex-start}
+  .footer{margin-top:48px}
+}
