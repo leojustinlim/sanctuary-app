@@ -1,13 +1,14 @@
-# Sanctuary V1.9 — Illustration & Editorial Polish
+# Sanctuary V2.0 — Companionship & Keepsake Stories
 
-This is a complete **flat-file** release for users uploading through the GitHub mobile browser. Upload all files alongside `index.html` in the repository root. No `art/` folder is required.
+An experimental iteration on **Sanctuary V1.9**, maintained on branch `sanctuary-v2.0-product-improvements`. Greenhouse is not modified.
 
-## Changes
-- Reviewed all 90 scene illustrations and added event-sensitive scenery details, colour depth and consistent character-focused composition. The art is still illustrated vector prototype art, not bespoke frame-by-frame character animation.
-- Retained the 18 individually illustrated cottage objects.
-- Corrected the heading to **For your own reflection (optional)**.
-- Added only two short, credited public-domain literary excerpts to appropriate thoughts-to-carry and memories. All other takeaways remain original.
-- Retained existing browser storage keys and data structure; progress should survive replacement on the same site. Export a backup first.
+## Updates
+- More relatable plant introduction copy without a quiz or mandatory choices.
+- A plant's next story recalls your previous specific choice and its authored response.
+- Tapping a keepsake shows its originating story and the event's thought to carry.
+- Cottage keepsakes offer tap-to-inspect, store/place and precise directional positioning as alternatives to touch-dragging.
+- The original single optional journaling text box, daily pacing, journal, privacy and local saved progress remain.
+- All 90 original event lessons remain available, including a meaningful thought to carry for every event.
 
-## Verification
-Basic SVG parsing, number of assets, JavaScript syntax, archive integrity; visual browser checks remain recommended on Safari.
+## Before merging
+Mobile Safari and desktop browser verification is recommended, including drag-to-reposition, item tap interactions, saved progress and the imported data workflow.
